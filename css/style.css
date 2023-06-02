@@ -6,7 +6,44 @@
   }
 
 /* ------------------------------------------------------------------NAV--------------------------------------------------------- */
-  .logo {
+
+.loader{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #353535;
+  animation: fadeout 0.75s forwards;
+ }
+
+ .loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddd;
+  border-top-color: #9356DC;
+  border-radius: 50%;
+  animation: loading  0.75s ease infinite;
+ }
+
+ @keyframes loading {
+  from{
+    transform: rotate(0turn);
+    transform: rotate(1turn);
+  }
+ }
+@keyframes fadeout{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.logo {
 
     background-color: #FFFFFF;
     display: flex;
@@ -135,6 +172,7 @@ transform: scale(1.05);
     border-radius: 82px;
     background-color: #9356DC;
     position: absolute;
+    z-index: 1;
     margin: 24px -20px;
   }
   
@@ -143,6 +181,7 @@ transform: scale(1.05);
     border-radius: 90px;
     background-color: #9356DC;
     position: absolute;
+    z-index: 1;
     margin: 24px -20px;
   }
   
@@ -151,6 +190,7 @@ transform: scale(1.05);
     border-radius: 100px;
     background-color: #9356DC;
     position: absolute;
+    z-index: 1;
     margin: 25px -20px;
   }
   .circle1, .circle2, .circle3 p{
@@ -210,6 +250,7 @@ padding-bottom: 5px;
 }
 .heartIcon{
   position: absolute;
+  z-index: 1;
   right: 25px;
   font-size: 26px;
   margin: -20px -4px;
@@ -218,6 +259,7 @@ display: flex;
 
 .purpleHeart{
   position: absolute;
+  z-index: 1;
 transform: scale(0);
 transition: 0.3s  ease-in ;
 }
@@ -245,6 +287,7 @@ transition: 0.5s ease-out;
   background-color: #99E2D0;
   padding: 9px 20px;
   position: absolute;
+  z-index: 1;
   top: 6px;
   border-radius: 3px;
   right: 20px;
