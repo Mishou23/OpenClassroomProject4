@@ -1,0 +1,348 @@
+* {
+    margin:0px;
+    padding: 0px;
+      font-family: 'Roboto';
+    }
+    
+    .main-container{
+      box-sizing: border-box;
+    }
+  /* ------------------------------------------------------------------NAV--------------------------------------------------------- */
+  .navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 14px;
+    padding-left: 23px;
+  }
+
+ .logo{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+  
+ }
+.logo img {
+        width: 70%;
+       height: 39px;
+    }
+   .return i {
+    font-size: 20px;
+   }
+
+/* ------------------------------------------------------HEADER----------------------------------------------------------- */
+.menuTitle {
+    background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    height: 275px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+   
+}
+    
+  .headline h1{
+    padding-top: 32px;
+    padding-left: 17px;
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 900;
+  }
+
+  .menuCard{
+    background-color: #F6F6F6;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    width: 100%;
+    position: relative;
+    top: -50px;
+  }
+
+  .headline{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+  }
+
+  .heartIcon{
+    display: flex;
+    align-items: end;
+    font-size: 24px;
+  }
+ 
+
+.firstMenu{
+    padding-top: 42px;
+    padding-left: 14px;
+    margin-top: -2px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    text-transform: uppercase ;
+}
+.firstMenu p{
+    border-bottom: 3px solid #99E2D0;
+    width: 40px;
+    padding-bottom: 5px;
+}
+.foodPrice{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 12px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.price p {
+    font-size: 15px;
+}
+.price span {
+    font-weight: bold;
+}
+
+.listOfMenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn{
+    color: white;
+    padding: 16px 49px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    border: none;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.btn span{
+    font-size: 16px;
+}
+
+.contactList h3{
+    font-family: 'Shrikhand';
+      font-style: italic;
+      font-size: 30px;
+      padding-left: 40px;
+      padding-bottom: 16px;
+      color: #FFFFFF;
+      font-weight: 900;
+    }
+  .contact{
+      width: 100%;
+      background: #353535;
+    padding-top: 20px;
+  }
+  .list{
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .contactList .lists{
+  color: white;
+  }
+  
+  .list span i{
+    padding: 0 7px;
+  }
+  .iconLists{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    padding-left: 25px;
+  }
+  
+  .contactList{
+    position: relative;
+  }
+
+  @media (min-width:768px) and (max-width:1025px){
+    .navbar {
+      padding-bottom: 25px;
+      padding-top: 25px;
+  }
+.logo{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.logo img{
+  height: 45px;
+}
+.return i {
+  font-size: 26px;
+}
+.heartIcon {
+  font-size: 32px;
+}
+.menuTitle h1 {
+  font-size: 35px;
+}
+.firstMenu {
+  font-size: 20px;
+}
+
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  width: 100%;
+  flex-wrap: nowrap;
+
+  }
+  .foodTitle{
+    font-size: 18px;
+  }
+
+  .price p {
+    font-size: 17px;
+}
+.foodPrice {
+  padding: 20px 30px;
+}
+.menuCard{
+  top: -15px;
+}
+.menuContainer{
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.headline {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.heartIcon {
+  padding-left: 24px;
+}
+.contactList .lists {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 76%;
+}
+
+.contactList{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 57px;
+}
+.iconLists{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+  }
+@media (min-width:1025px){
+  .navbar {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+  .logo{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
+  .logo img{
+    width: 60%;
+    height: 45px;
+   }
+  .return i {
+    font-size: 26px;
+  }
+  .heartIcon {
+    font-size: 32px;
+  }
+  .menuTitle h1 {
+    font-size: 35px;
+  }
+  .firstMenu {
+    font-size: 20px;
+  }
+ 
+  .price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    width: 100%;
+    flex-wrap: nowrap;
+  
+    }
+    .foodTitle{
+      font-size: 18px;
+    }
+  
+    .price p {
+      font-size: 17px;
+  }
+  .foodPrice {
+    padding: 20px 30px;
+  }
+  .menuCard{
+    top: -15px;
+    padding: 50px 200px;
+  }
+  .menuContainer{
+    padding: 0px 193px;
+    display: flex;
+    justify-content: center;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+  }
+  .headline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .heartIcon {
+    padding-left: 24px;
+  }
+  .contactList .lists {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 76%;
+  }
+  
+  .contactList{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 57px;
+  }
+  .iconLists{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}

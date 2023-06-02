@@ -1,0 +1,588 @@
+* {
+  margin:0px;
+  padding: 0px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+  }
+
+/* ------------------------------------------------------------------NAV--------------------------------------------------------- */
+  .logo {
+
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 46%;
+    height: 38px;
+  }
+  
+.location p {
+  color:#353535;
+  font-size: 16px;
+  font-weight:700;
+}
+  
+  .location p i {
+    padding-right: 17px;
+  }
+  
+  .location {
+    background-color: #EAEAEA;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+  }
+  /* ---------------------------------------------------------HEADER------------------------------------------------------- */
+  .intro {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .intro .title {
+    font-weight: 900;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-left: 42px;
+  }
+  
+  .intro .text {
+    color: #353535;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    padding-left: 42px;
+}
+  
+  .intro span {
+    font-size: 16px;
+  }
+  .intro button{
+    color: white;
+    padding: 16px 25px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    border: none;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    margin-bottom: 57px;
+   transition: 0.5s ease-in;
+  }
+.intro button:hover {
+opacity: 0.5;
+transform: scale(1.05); 
+}
+
+/* ----------------------------------------------------------------------------------MAIN------------------------------------------------------------------ */
+  
+.filters{
+  font-size: 24px;
+  padding-left: 20px;
+  font-weight: 700;
+}
+  .filterTitle {
+    font-size: 24px;
+    padding-top: 70px;
+  
+  }
+  
+  .filterBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 26px;
+  }
+  
+  .filterBtn .btn {
+    border-radius: 19px;
+    background: #F7F7F7;
+    border: none;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.15);
+    padding: 28px 32px;
+  }
+  .filterBtn .container{
+    padding-bottom: 25px;
+  }
+  
+  .btn span {
+    font-weight: bold;
+    padding: 27px;
+    font-size: 16px;
+  }
+  
+  .btn i {
+    font-size: 19px;
+    margin-left: -2px;
+  }
+  
+  .filterBtn .circle3 {
+    padding: 5px 11px;
+    border-radius: 82px;
+    background-color: #9356DC;
+    position: absolute;
+    margin: 24px -20px;
+  }
+  
+  .circle2 {
+    padding: 5px 11px;
+    border-radius: 90px;
+    background-color: #9356DC;
+    position: absolute;
+    margin: 24px -20px;
+  }
+  
+  .circle1 {
+    padding: 4px 10px;
+    border-radius: 100px;
+    background-color: #9356DC;
+    position: absolute;
+    margin: 25px -20px;
+  }
+  .circle1, .circle2, .circle3 p{
+       font-size: 13px;
+    color: white;
+    font-weight: 500;
+  }
+
+   .icon i {
+    padding-left: 15px;
+   }
+
+
+  /*----------------------------------------------------- CARTES RESTAURENTS----------------------------------------------------- */
+
+.restoCards{
+ width: 100%;
+  background: #F6F6F6;
+  padding-top: 54px;
+  padding-bottom: 33px;
+
+}
+
+  .restaurant h2{
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 6px;
+}
+
+.food img{
+    object-fit: cover;
+    width: 100%;
+    height: 236px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: -4px 0px;
+  
+}
+
+.allMyFoods{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+.food{
+  position: relative;
+  padding-bottom: 18px;
+}
+.title{
+font-size: 18px;
+font-weight: 900;
+padding-left: 13px;
+padding-top: 16px;
+padding-bottom: 5px;
+}
+.heartIcon{
+  position: absolute;
+  right: 25px;
+  font-size: 26px;
+  margin: -20px -4px;
+display: flex;
+}
+
+.purpleHeart{
+  position: absolute;
+transform: scale(0);
+transition: 0.3s  ease-in ;
+}
+.whiteHeart{
+transform: scale(1);
+transition: 0.5s ease-out;
+}
+
+.whiteHeart:hover{
+  transform: scale(0);
+  transition: 0.5s ;
+}
+ .whiteHeart:hover + .purpleHeart{
+    transform: scale(1);
+    transition: 0.3s ease-in ;
+      }
+
+
+.allMyFoods a{
+  color: black;
+  text-decoration: none;
+}
+.newFood{
+ 
+  background-color: #99E2D0;
+  padding: 9px 20px;
+  position: absolute;
+  top: 6px;
+  border-radius: 3px;
+  right: 20px;
+
+}
+.newFood p{
+  color:#008766;
+  font-size: 18px;
+  font-weight: 600;
+}
+.subtitle{
+ padding-left: 13px;
+ padding-bottom: 12px;
+    font-size: 17px;
+}
+
+.card-content{
+    padding: 5px;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* --------------------------------------------------------FOOTER------------------------------------------------------------------------- */
+
+.contactList h3{
+  font-family: 'Shrikhand';
+    font-style: italic;
+   
+    color: #FFFFFF;
+    font-weight: 900;
+  }
+.contact{
+    width: 100%;
+    background: #353535;
+  padding-top: 20px;
+}
+.list{
+  padding-bottom: 15px;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.contactList .lists{
+color: white;
+}
+
+.list span i{
+  padding: 0 7px;
+}
+.iconLists{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+}
+
+
+.contactList{
+  position: relative;
+}
+
+
+.contactList img{
+  padding-left: 25px;
+}
+
+
+/* ***************************************************************MEDIA QUERIES*************************************************************************************** */
+
+
+ @media (min-width:768px) and (max-width:1025px)  {
+  
+  .logo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .logo img {
+    width: 25%;
+    height: 42px;
+  }
+
+.filterBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.filterBtn .btn {
+  padding: 27px 19px;
+}
+.btn span {
+  padding: 12px;
+  font-size: 18px;
+}
+
+/* ----------------------------------------------------------CARTES RESTO-------------------------------------------------------------------- */
+
+.food img {
+  height: 230px;
+}
+
+.allMyFoods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.coupleFoods{
+  width: 50%;
+}
+
+.couple{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.food{
+  padding: 15px;
+}
+.newFood {
+  top: 28px;
+  border-radius: 3px;
+  right: 28px;
+}
+
+.iconLists{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.contactList .lists {
+  color: white;
+  display: flex;
+ flex-direction: row;
+  width: 100%;
+}
+
+.contactList{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 30px;
+  padding-right: 35px;
+  width: 97%;
+}
+
+.list{
+  padding-bottom: 5px;
+}
+
+.contact{
+  padding-top: 57px;
+}
+
+.iconLists{
+  padding-bottom: 0px;
+}
+.contactList img {
+  padding-left: 0px; 
+}
+.group-list{
+  display: flex;
+  flex-direction: row;
+  padding-right: 40px;
+  flex-wrap: wrap;
+  padding-left: 21px;
+}
+
+}
+
+@media (min-width: 1025px) {
+  .logo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .logo img {
+    width: 17%;
+    height: 36px;
+  }
+  .location p {
+    font-size: 16px;
+  }
+  .intro .title {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .intro .text {
+    font-size: 18px;
+    padding-top: 18px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+.intro span {
+  font-size: 16px;
+}
+.intro button {
+  padding: 17px 19px;
+  margin-bottom: 43px;
+}
+
+.filterTitle {
+  font-size: 23px;
+    padding-left: 180px;
+  padding-top: 50px;
+}
+.filters {
+  padding-left: 0px;
+}
+
+.filterBtn {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 87%;
+  padding-left: 180px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+}
+
+ .filterBtn .circle3, .circle1, .circle2 {
+  margin: 25px -15px;
+  padding: 4px 8px;
+}
+.btn span {
+  font-size: 15px;
+  padding-right: 38px;
+  padding-left: 17px;
+}
+.btn i {
+  font-size: 18px;
+}
+.filterBtn .btn {
+  padding: 23px 26px;
+}
+.circle1, .circle2, .circle3 p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.restaurant h2 {
+  font-size: 23px;
+  padding-bottom: 5px;
+  padding-left: 180px;
+}
+.food img {
+  height: 156px;
+}
+.newFood {
+  right: 58px;
+  top: 35px;
+}
+ .allMyFoods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+}
+.coupleFoods{
+  width: 50%;
+}
+.couple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-content {
+  padding: 0px;
+}
+.food{
+ padding: 25px 38px;
+}
+
+
+.title {
+  font-size: 16px;
+}
+.subtitle {
+  font-size: 15px;
+}
+.heartIcon {
+  font-size: 20px;
+}
+.newFood p {
+  font-size: 16px;
+}
+.iconLists {
+  display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 90%;
+  padding-bottom: 0px;
+}
+.contact {
+  width: 100%;
+  background: #353535;
+  padding-top: 0px;
+}
+
+.list{
+padding-bottom: 0px;
+}
+
+.contactList{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 97%;
+  padding-top: 64px;
+    padding-bottom: 31px;
+    padding-right: 35px;
+}
+.contactList .lists {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.contactList img {
+  padding-left: 0px; 
+}
+.group-list{
+  display: flex;
+  flex-direction: row;
+  padding-right: 40px;
+}
+}
