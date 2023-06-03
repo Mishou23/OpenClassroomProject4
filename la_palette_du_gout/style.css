@@ -166,15 +166,16 @@
 }
 
 .price {
-
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   padding-top: 5px;
   width: 100%;
-  flex-wrap: wrap;
   transition: 0.1s ease-out;
 }
-
+.cost{
+  white-space: nowrap;
+}
 .price p {
   font-size: 15px;
 }
@@ -230,12 +231,17 @@
     transition: 0.1s ease-in;
   }
 
-  .foodTitle h3,
-  p {
+  .foodTitle h3, p {
     transform: scale(1.05);
     transition: 0.3s ease-in;
   }
 }
+
+.foodTitle h3,.foodTitle p {
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 
 .container {
   display: flex;
@@ -351,6 +357,9 @@
     width: 100%;
     flex-wrap: nowrap;
 
+  }
+  .check span {
+    padding: 33px 10px;
   }
 
   .foodTitle {
@@ -487,6 +496,11 @@
     width: 100%;
     flex-wrap: nowrap;
 
+  }
+ 
+ 
+  .check span {
+    padding: 33px 10px;
   }
 
   .foodTitle {
