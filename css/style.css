@@ -355,6 +355,11 @@
   padding-right: 10px;
 }
 
+.list a{
+  text-decoration: none;
+  color: white;
+}
+
 .contactList .lists {
   color: white;
 }
