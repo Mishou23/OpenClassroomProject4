@@ -1,348 +1,598 @@
 * {
-    margin:0px;
-    padding: 0px;
-      font-family: 'Roboto';
-    }
-    
-    .main-container{
-      box-sizing: border-box;
-    }
-  /* ------------------------------------------------------------------NAV--------------------------------------------------------- */
-  .navbar{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-    padding-top: 14px;
-    padding-left: 23px;
-  }
-
- .logo{
-    padding-bottom: 5px;
-    display: flex;
-    justify-content: space-around;
-    width: 67%;
-  
- }
-.logo img {
-        width: 70%;
-       height: 39px;
-    }
-   .return i {
-    font-size: 20px;
-   }
-
-/* ------------------------------------------------------HEADER----------------------------------------------------------- */
-.menuTitle {
-    background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    height: 275px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-repeat: no-repeat;
-    align-items: end;
-    background-size: cover;
-    background-position: center;
-   
-}
-    
-  .headline h1{
-    padding-top: 32px;
-    padding-left: 17px;
-    font-family: Shrikhand;
-    font-size: 28px;
-    font-style: italic;
-    font-weight: 900;
-  }
-
-  .menuCard{
-    background-color: #F6F6F6;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    width: 100%;
-    position: relative;
-    top: -50px;
-  }
-
-  .headline{
-    display: flex;
-    justify-content: space-between;
-    width: 93%;
-  }
-
-  .heartIcon{
-    display: flex;
-    align-items: end;
-    font-size: 24px;
-  }
- 
-
-.firstMenu{
-    padding-top: 42px;
-    padding-left: 14px;
-    margin-top: -2px;
-    padding-bottom: 12px;
-    font-size: 16px;
-    text-transform: uppercase ;
-}
-.firstMenu p{
-    border-bottom: 3px solid #99E2D0;
-    width: 40px;
-    padding-bottom: 5px;
-}
-.foodPrice{
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 20px;
-    margin: 12px;
-}
-.price{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5px;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.price p {
-    font-size: 15px;
-}
-.price span {
-    font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
 }
 
-.listOfMenus{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+/* ------------------------------------------------------------------NAV--------------------------------------------------------- */
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 74%;
+  padding-top: 20px;
+  padding-left: 23px;
+  padding-bottom: 10px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.btn{
-    color: white;
-    padding: 16px 49px;
-    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-    border: none;
-    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
-    border-radius: 100px;
-}
-.btn span{
-    font-size: 16px;
-}
-
-.contactList h3{
-    font-family: 'Shrikhand';
-      font-style: italic;
-      font-size: 30px;
-      padding-left: 40px;
-      padding-bottom: 16px;
-      color: #FFFFFF;
-      font-weight: 900;
-    }
-  .contact{
-      width: 100%;
-      background: #353535;
-    padding-top: 20px;
-  }
-  .list{
-    padding-bottom: 15px;
-    font-size: 20px;
-  }
-  .contactList .lists{
-  color: white;
-  }
-  
-  .list span i{
-    padding: 0 7px;
-  }
-  .iconLists{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 22px;
-    padding-left: 25px;
-  }
-  
-  .contactList{
-    position: relative;
-  }
-
-  @media (min-width:768px) and (max-width:1025px){
-    .navbar {
-      padding-bottom: 25px;
-      padding-top: 25px;
-  }
-.logo{
+.logo {
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  width: 67%;
+
 }
-.logo img{
-  height: 45px;
+
+.logo img {
+  width: 100%;
+  height: 39px;
 }
+
 .return i {
-  font-size: 26px;
-}
-.heartIcon {
-  font-size: 32px;
-}
-.menuTitle h1 {
-  font-size: 35px;
-}
-.firstMenu {
   font-size: 20px;
 }
 
+/* ------------------------------------------------------HEADER----------------------------------------------------------- */
+.menuTitle {
+  background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  height: 275px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  align-items: end;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.headline h1 {
+  padding-top: 32px;
+  padding-left: 17px;
+  font-family: Shrikhand;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.menuCard {
+  background-color: #F6F6F6;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  width: 100%;
+  position: relative;
+  top: -57px;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  align-items: baseline;
+}
+
+.heartIcon {
+  position: relative;
+  font-size: 27px;
+}
+
+.purpleHeart {
+  position: absolute;
+  transform: scale(0);
+  transition: 0.3s ease-in;
+  top: 0px;
+}
+
+.whiteHeart {
+  transform: scale(1);
+  transition: 0.5s ease-out;
+}
+
+.whiteHeart:hover {
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.whiteHeart:hover+.purpleHeart {
+  transform: scale(1);
+  transition: 0.3s ease-in;
+}
+
+.firstMenu {
+  padding-top: 42px;
+  padding-left: 14px;
+  margin-top: -2px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.firstMenu p {
+  border-bottom: 4px solid #99E2D0;
+  width: 40px;
+  padding-bottom: 5px;
+}
+
+.foodPrice {
+  position: relative;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 12px;
+  opacity: 0;
+}
+
+.foodPrice.first {
+  animation: fade-in-scroll ease-in 2s forwards;
+}
+
+.foodPrice.second {
+  animation: fade-in-scroll2 ease 5s forwards;
+}
+
+.foodPrice.third {
+  animation: fade-in-scroll2 6s forwards;
+}
+.foodPrice.fourth{
+  animation: fade-in-scroll2 9s forwards;
+}
+
+@keyframes fade-in-scroll {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-scroll2 {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .price {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   padding-top: 5px;
   width: 100%;
-  flex-wrap: nowrap;
+  transition: 0.1s ease-out;
+}
+.cost{
+  white-space: nowrap;
+}
+.price p {
+  font-size: 15px;
+}
 
-  }
-  .foodTitle{
-    font-size: 18px;
+.price span {
+  font-weight: bold;
+}
+
+.listOfMenus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.check {
+  width: 10%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #99E2D0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  right: 0px;
+  top: -1px;
+  transform: scaleX(0);
+  transition: 0.1s ease-out;
+  transform-origin: right;
+
+}
+
+.check span {
+  padding: 32px 10px;
+  border-radius: 100px;
+  display: inline-block;
+
+}
+
+.check span i {
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  color: #99E2D0;
+}
+
+.foodPrice:hover {
+  .check {
+    transform: scaleX(1);
+    transition: 0.1s ease-in;
   }
 
-  .price p {
-    font-size: 17px;
+  .price {
+    width: 90%;
+    transition: 0.1s ease-in;
+  }
+
+  .foodTitle h3, p {
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+  }
 }
-.foodPrice {
-  padding: 20px 30px;
-}
-.menuCard{
-  top: -15px;
-}
-.menuContainer{
-  padding: 0px 50px;
+
+.foodTitle h3,.foodTitle p {
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+.container {
   display: flex;
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: -57px;
 }
-.menu{
-  display: flex;
-  justify-content: center;
+
+.btn {
+  color: white;
+  padding: 16px 49px;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  border: none;
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transition: 0.5s ease-in;
 }
-.headline {
-  display: flex;
-  justify-content: center;
+
+.btn span {
+  font-size: 16px;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+
+.contactList h3 {
+  font-family: 'Shrikhand';
+  font-style: italic;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-bottom: 16px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+.contact {
   width: 100%;
+  background: #353535;
+  padding-top: 20px;
+  margin-top: -32px;
 }
-.heartIcon {
-  padding-left: 24px;
+
+.list {
+  padding-bottom: 15px;
+  font-size: 20px;
 }
+
 .contactList .lists {
   color: white;
-  display: flex;
-  justify-content: space-evenly;
-  width: 76%;
 }
 
-.contactList{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  width: 100%;
-  padding-top: 57px;
+.list span i {
+  padding: 0 7px;
 }
-.iconLists{
+
+.iconLists {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 22px;
 }
-  }
-@media (min-width:1025px){
+
+.contactList {
+  padding-left: 25px;
+  position: relative;
+}
+
+@media (min-width:768px) and (max-width:1025px) {
   .navbar {
     padding-bottom: 25px;
     padding-top: 25px;
-}
-  .logo{
+  }
+
+  .logo {
     display: flex;
     justify-content: space-around;
     width: 60%;
   }
-  .logo img{
-    width: 60%;
-    height: 45px;
-   }
+
+  .logo img {
+    height: 39px;
+  }
+
+  .menuTitle {
+    height: 399px;
+  }
+
   .return i {
     font-size: 26px;
   }
+
   .heartIcon {
-    font-size: 32px;
+    font-size: 27px;
   }
+
   .menuTitle h1 {
     font-size: 35px;
   }
+
   .firstMenu {
     font-size: 20px;
   }
- 
+
+
   .price {
     display: flex;
     justify-content: space-between;
     padding-top: 5px;
     width: 100%;
     flex-wrap: nowrap;
-  
-    }
-    .foodTitle{
-      font-size: 18px;
-    }
-  
-    .price p {
-      font-size: 17px;
+
   }
+  .check span {
+    padding: 33px 10px;
+  }
+
+  .foodTitle {
+    font-size: 18px;
+  }
+
+  .price p {
+    font-size: 17px;
+  }
+
   .foodPrice {
     padding: 20px 30px;
   }
-  .menuCard{
-    top: -15px;
-    padding: 50px 200px;
+
+  .menuCard {
+    top: -32px;
+    padding: 72px;
   }
-  .menuContainer{
-    padding: 0px 193px;
+
+  .menuContainer {
+    padding: 0px 50px;
     display: flex;
     justify-content: center;
   }
-  .menu{
+
+  .menu {
     display: flex;
     justify-content: center;
   }
+
   .headline {
     display: flex;
     justify-content: center;
     width: 100%;
   }
+
   .heartIcon {
     padding-left: 24px;
   }
+
+  .container {
+    margin-bottom: 0px;
+  }
+
+  .iconLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    padding-left: 0px;
+  }
+
   .contactList .lists {
     color: white;
     display: flex;
-    justify-content: space-evenly;
-    width: 76%;
-  }
-  
-  .contactList{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    width: 100%;
-    padding-top: 57px;
-  }
-  .iconLists{
-    display: flex;
     flex-direction: row;
     width: 100%;
+  }
+
+  .contactList {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 25px;
+    padding-right: 35px;
+  }
+
+  .list {
+    padding-bottom: 5px;
+    padding-right: 17px;
+  }
+
+  .contact {
+    padding-top: 57px;
+  }
+
+  .iconLists {
+    padding-bottom: 0px;
+    padding-left: 21px;
+  }
+
+  .contactList img {
+    padding-left: 0px;
+  }
+
+  .group-list {
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width:1025px) {
+  .navbar {
+    padding-bottom: 32px;
+    padding-top: 30px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+  }
+
+  .logo img {
+    width: 60%;
+    height: 45px;
+  }
+
+  .menuTitle {
+    height: 400px;
+  }
+
+  .return i {
+    font-size: 26px;
+  }
+
+  .heartIcon {
+    font-size: 27px;
+  }
+
+  .menuTitle h1 {
+    font-size: 35px;
+  }
+
+  .firstMenu {
+    font-size: 20px;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    width: 100%;
+    flex-wrap: nowrap;
+
+  }
+ 
+ 
+  .check span {
+    padding: 33px 10px;
+  }
+
+  .foodTitle {
+    font-size: 18px;
+  }
+
+  .price p {
+    font-size: 17px;
+  }
+
+  .foodPrice {
+    padding: 20px 30px;
+  }
+
+  .menuCard {
+    top: -32px;
+    padding: 50px 100px;
+  }
+
+  .menuContainer {
+    padding: 0px 193px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .heartIcon {
+    padding-left: 24px;
+  }
+
+  .container {
+    margin-bottom: 0px;
+  }
+
+  .iconLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-bottom: 0px;
+    width: 82%;
+    padding-left: 0px
+  }
+
+  .contact {
+    width: 100%;
+    background: #353535;
+    padding-top: 0px;
+  }
+
+  .list {
+    padding-bottom: 0px;
+    padding-right: 17px;
+    font-size: 16px;
+  }
+
+  .contactList {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 97%;
+    padding-top: 64px;
+    padding-bottom: 31px;
+    padding-right: 35px;
+  }
+
+  .contactList .lists {
+    color: white;
+    display: flex;
+    justify-content: end;
+
+    width: 100%;
+  }
+
+  .contactList img {
+    padding-left: 30px;
+  }
+
+  .group-list {
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
   }
 }
