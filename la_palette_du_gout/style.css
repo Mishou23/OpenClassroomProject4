@@ -210,7 +210,8 @@
   padding: 32px 10px;
   border-radius: 100px;
   display: inline-block;
-
+  display: flex;
+  justify-content: center;
 }
 
 .check span i {
