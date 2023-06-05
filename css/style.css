@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   background-color: #353535;
-   animation: fadeout 1s forwards; 
+   animation: fadeout 3s forwards; 
 }
 
 .loader::after {
@@ -25,13 +25,12 @@
   border: 15px solid #dddd;
   border-top-color: #9356DC;
   border-radius: 50%;
-  animation: loading 0.75s ease infinite;
+  animation: loading 3s infinite linear;
 }
 
 @keyframes loading {
-  from {
-    transform: rotate(0turn);
-    transform: rotate(1turn);
+  100% {
+    transform: rotate(360deg);
   }
 }
 
