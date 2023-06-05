@@ -60,12 +60,21 @@
   height: 38px;
 }
 
-.location p {
-  color: #353535;
+#location  {
   font-size: 16px;
+  border: none;
+  padding-left: 17px;
+  background-color: #EAEAEA;
+}
+input:focus{
+ outline: none;
+ color: #353535;
+ font-weight: 700;
+}
+input::placeholder{
+  color: #353535;
   font-weight: 700;
 }
-
 .location p i {
   padding-right: 17px;
 }
