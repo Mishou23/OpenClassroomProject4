@@ -1,10 +1,10 @@
+
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto';
   box-sizing: border-box;
 }
-
 /* ------------------------------------------------------------------NAV--------------------------------------------------------- */
 
 .loader {
@@ -285,24 +285,28 @@ input::placeholder{
 
 .purpleHeart {
   position: absolute;
+  background: -webkit-linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  color: transparent;
   z-index: 1;
   transform: scale(0);
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in;
 }
 
 .whiteHeart {
   transform: scale(1);
-  transition: 0.5s ease-out;
+  transition: 3s ease-out;
 }
 
 .whiteHeart:hover {
   transform: scale(0);
-  transition: 0.5s;
+  transition: 3s;
 }
 
 .whiteHeart:hover+.purpleHeart {
   transform: scale(1);
-  transition: 0.3s ease-in;
+  transition: 1s ease-in;
 }
 
 
@@ -350,7 +354,6 @@ input::placeholder{
 .contactList h3 {
   font-family: 'Shrikhand';
   font-style: italic;
-
   color: #FFFFFF;
   font-weight: 900;
 }
