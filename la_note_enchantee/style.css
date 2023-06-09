@@ -298,7 +298,7 @@
 
 .list {
   padding-bottom: 15px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .contactList .lists {
@@ -380,7 +380,7 @@
   }
 
   .price p {
-    font-size: 17px;
+    font-size: 19px;
   }
 
   .foodPrice {
@@ -389,7 +389,7 @@
 
   .menuCard {
     top: -32px;
-    padding: 72px;
+    padding: 40px;
   }
 
   .menuContainer {
@@ -415,6 +415,7 @@
 
   .container {
     margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   .iconLists {
@@ -519,18 +520,15 @@
   .foodTitle {
     font-size: 18px;
   }
-
   .price p {
-    font-size: 17px;
-  }
-
+    font-size: 18px;
+}
   .foodPrice {
     padding: 20px 30px;
   }
-
   .menuCard {
-    top: -32px;
-    padding: 50px 100px;
+    top: -42px;
+    padding: 40px 100px;
   }
 
   .menuContainer {
@@ -556,6 +554,7 @@
 
   .container {
     margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   .iconLists {
@@ -563,7 +562,7 @@
     flex-direction: row;
     justify-content: end;
     padding-bottom: 0px;
-    width: 82%;
+    width: 100%;
     padding-left: 0px
   }
 
@@ -576,13 +575,12 @@
   .list {
     padding-bottom: 0px;
     padding-right: 17px;
-    font-size: 16px;
   }
 
   .contactList {
     display: flex;
     flex-direction: row-reverse;
-    width: 97%;
+    width: 100%;
     padding-top: 64px;
     padding-bottom: 31px;
     padding-right: 35px;

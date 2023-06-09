@@ -339,7 +339,7 @@ input::placeholder{
 .subtitle {
   padding-left: 13px;
   padding-bottom: 12px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .card-content {
@@ -369,7 +369,7 @@ input::placeholder{
 
 .list {
   padding-bottom: 15px;
-  font-size: 16px;
+  font-size: 18px;
   padding-right: 10px;
 }
 
