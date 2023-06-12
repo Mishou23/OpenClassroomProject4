@@ -1,10 +1,10 @@
-
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto';
   box-sizing: border-box;
 }
+
 /* ------------------------------------------------------------------NAV--------------------------------------------------------- */
 
 .loader {
@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   background-color: #353535;
-   animation: fadeout 3s forwards; 
+  animation: fadeout 3s forwards;
 }
 
 .loader::after {
@@ -62,21 +62,28 @@
   height: 38px;
 }
 
-#location  {
+#location {
   font-size: 16px;
   border: none;
   padding-left: 17px;
   background-color: #EAEAEA;
 }
-input:focus{
- outline: none;
- color: #353535;
- font-weight: 700;
+
+.location i {
+margin-left: 50px;
 }
-input::placeholder{
+
+input:focus {
+  outline: none;
   color: #353535;
   font-weight: 700;
 }
+
+input::placeholder {
+  color: #353535;
+  font-weight: 700;
+}
+
 .location p i {
   padding-right: 17px;
 }
@@ -180,10 +187,12 @@ input::placeholder{
   padding: 27px;
   font-size: 16px;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #ecdcff;
   transition: 1s ease-in;
 }
+
 .btn i {
   font-size: 19px;
   margin-left: -2px;
@@ -249,7 +258,7 @@ input::placeholder{
 .food img {
   object-fit: cover;
   width: 100%;
-  height: 236px;
+  height: 225px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   margin: -4px 0px;
@@ -373,7 +382,7 @@ input::placeholder{
   padding-right: 10px;
 }
 
-.list a{
+.list a {
   text-decoration: none;
   color: white;
 }

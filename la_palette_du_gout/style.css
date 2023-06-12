@@ -55,6 +55,7 @@
   font-family: Shrikhand;
   font-size: 28px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .menuCard {
@@ -68,16 +69,16 @@
 
 .headline {
   display: flex;
-  justify-content: space-between;
-  width: 93%;
+  justify-content: center;
+  width: 95%;
   align-items: baseline;
 }
 
 .heartIcon {
   position: relative;
   font-size: 27px;
+  padding-left: 24px;
 }
-
 .purpleHeart {
   position: absolute;
   background: -webkit-linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -177,9 +178,11 @@
   width: 100%;
   transition: 0.1s ease-out;
 }
-.cost{
+
+.cost {
   white-space: nowrap;
 }
+
 .price p {
   font-size: 15px;
 }
@@ -225,29 +228,30 @@
   color: #99E2D0;
 }
 
-.foodPrice:hover {
-  .check {
-    transform: scaleX(1);
-    transition: 0.3s ease-in;
-    margin: 0 -10px;
-  }
-
-  .price {
-    width: 90%;
-    transition: 0.3s ease-in;
-  }
-
-  .foodTitle h3, p {
-    transform: scale(1.05);
-    transition: 0.3s ease-in;
-  }
+.foodPrice:hover .check {
+  transform: scaleX(1);
+  transition: 0.3s ease-in;
+  margin: 0 -10px;
 }
 
-.foodTitle h3 ,.foodTitle p {
+.foodPrice:hover .price {
+  width: 90%;
+  transition: 0.3s ease-in;
+}
+
+.foodPrice:hover .foodTitle h3,
+.foodPrice:hover .foodTitle p {
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
+}
+
+
+.foodTitle h3,
+.foodTitle p {
   overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 .container {
   display: flex;
@@ -319,7 +323,7 @@
   position: relative;
 }
 
-.list a{
+.list a {
   text-decoration: none;
   color: white;
 }
@@ -333,7 +337,7 @@
   .logo {
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 65%;
   }
 
   .logo img {
@@ -370,6 +374,7 @@
     flex-wrap: nowrap;
 
   }
+
   .check span {
     padding: 33px 10px;
   }
@@ -510,7 +515,7 @@
     flex-wrap: nowrap;
 
   }
- 
+
   .check span {
     padding: 33px 10px;
   }
@@ -518,9 +523,11 @@
   .foodTitle {
     font-size: 18px;
   }
+
   .price p {
     font-size: 18px;
-}
+  }
+
   .foodPrice {
     padding: 20px 30px;
   }
