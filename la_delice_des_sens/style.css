@@ -55,6 +55,7 @@
   font-family: Shrikhand;
   font-size: 28px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .menuCard {
@@ -78,7 +79,6 @@
   font-size: 27px;
   padding-left: 24px;
 }
-
 .purpleHeart {
   position: absolute;
   background: -webkit-linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -245,6 +245,7 @@
   transition: 0.3s ease-in;
 }
 
+
 .foodTitle h3,
 .foodTitle p {
   overflow: hidden;
@@ -289,16 +290,28 @@
   font-weight: 900;
 }
 
+.contactList h3 {
+  font-family: 'Shrikhand';
+  font-style: italic;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
 .contact {
   width: 100%;
   background: #353535;
   padding-top: 20px;
-  margin-top: -32px;
 }
 
 .list {
   padding-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
 }
 
 .contactList .lists {
@@ -314,17 +327,19 @@
   flex-direction: column;
   justify-content: space-between;
   padding-top: 16px;
-  padding-bottom: 22px;
+  padding-bottom: 8px;
+  padding-left: 25px;
 }
+
 
 .contactList {
-  padding-left: 25px;
   position: relative;
+  z-index: 1;
 }
 
-.list a {
-  text-decoration: none;
-  color: white;
+
+.contactList img {
+  padding-left: 25px;
 }
 
 @media (min-width:768px) and (max-width:1025px) {
@@ -391,7 +406,7 @@
   }
 
   .menuCard {
-    top: -32px;
+    top: -40px;
     padding: 40px;
   }
 
@@ -399,6 +414,7 @@
     padding: 0px 50px;
     display: flex;
     justify-content: center;
+    margin-bottom: -39px;
   }
 
   .menu {
@@ -425,36 +441,31 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
-    width: 100%;
-    padding-left: 0px;
   }
 
   .contactList .lists {
     color: white;
     display: flex;
     flex-direction: row;
-    width: 100%;
   }
 
   .contactList {
     display: flex;
     flex-direction: row-reverse;
-    padding-bottom: 25px;
-    padding-right: 35px;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
   }
 
   .list {
-    padding-bottom: 5px;
-    padding-right: 17px;
+    padding-bottom: 1px;
   }
 
   .contact {
-    padding-top: 57px;
+    padding-top: 28px;
   }
 
   .iconLists {
     padding-bottom: 0px;
-    padding-left: 21px;
   }
 
   .contactList img {
@@ -463,10 +474,10 @@
 
   .group-list {
     display: flex;
-    flex-direction: row;
-    padding-right: 40px;
-    flex-wrap: wrap;
+    flex-direction: row;    
+    padding-right: 15px;
   }
+
 }
 
 @media (min-width:1025px) {
@@ -515,7 +526,6 @@
 
   }
 
-
   .check span {
     padding: 33px 10px;
   }
@@ -541,6 +551,7 @@
     padding: 0px 193px;
     display: flex;
     justify-content: center;
+    margin-bottom: -41px;
   }
 
   .menu {
@@ -562,7 +573,6 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
-
   .iconLists {
     display: flex;
     flex-direction: row;
@@ -586,8 +596,9 @@
   .contactList {
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
-    padding-top: 64px;
+    width: 96%;
+    justify-content: space-around;
+    padding-top: 28px;
     padding-bottom: 31px;
     padding-right: 35px;
   }

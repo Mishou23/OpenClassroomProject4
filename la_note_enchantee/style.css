@@ -186,6 +186,7 @@
 
 .cost {
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .price p {
@@ -304,7 +305,7 @@
 
 .list {
   padding-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contactList .lists {
@@ -426,41 +427,36 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
-
+  
   .iconLists {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    width: 100%;
-    padding-left: 0px;
   }
 
   .contactList .lists {
     color: white;
     display: flex;
     flex-direction: row;
-    width: 100%;
   }
 
   .contactList {
     display: flex;
     flex-direction: row-reverse;
-    padding-bottom: 25px;
-    padding-right: 35px;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
   }
 
   .list {
-    padding-bottom: 5px;
-    padding-right: 17px;
+    padding-bottom: 1px;
   }
 
   .contact {
-    padding-top: 57px;
+    padding-top: 28px;
   }
 
   .iconLists {
     padding-bottom: 0px;
-    padding-left: 21px;
   }
 
   .contactList img {
@@ -469,10 +465,10 @@
 
   .group-list {
     display: flex;
-    flex-direction: row;
-    padding-right: 40px;
-    flex-wrap: wrap;
+    flex-direction: row;    
+    padding-right: 15px;
   }
+
 }
 
 @media (min-width:1025px) {
@@ -541,6 +537,7 @@
   .menuCard {
     top: -42px;
     padding: 40px 100px;
+    margin-bottom: -9px;
   }
 
   .menuContainer {
@@ -568,7 +565,6 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
-
   .iconLists {
     display: flex;
     flex-direction: row;
@@ -592,8 +588,9 @@
   .contactList {
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
-    padding-top: 64px;
+    width: 96%;
+    justify-content: space-around;
+    padding-top: 28px;
     padding-bottom: 31px;
     padding-right: 35px;
   }
