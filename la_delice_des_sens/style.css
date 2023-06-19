@@ -473,6 +473,8 @@
 
   .contactList img {
     padding-left: 0px;
+    margin-top: 4px;
+    height: 33px;
   }
 
   .group-list {
@@ -616,6 +618,8 @@
 
   .contactList img {
     padding-left: 30px;
+    margin-top: 4px;
+    height: 33px;
   }
 
   .group-list {
