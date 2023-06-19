@@ -332,12 +332,11 @@ input::placeholder {
 }
 
 .newFood {
-
   background-color: #99E2D0;
   padding: 9px 20px;
   position: absolute;
   z-index: 1;
-  top: 6px;
+  top: 16px;
   border-radius: 3px;
   right: 20px;
 
