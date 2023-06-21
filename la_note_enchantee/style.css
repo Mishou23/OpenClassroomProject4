@@ -452,10 +452,11 @@
 
   .list {
     padding-bottom: 1px;
+    padding-right: 15px;
   }
 
   .contact {
-    padding-top: 28px;
+    padding-top: 48px;
   }
 
   .iconLists {
@@ -582,7 +583,7 @@
   .contact {
     width: 100%;
     background: #353535;
-    padding-top: 0px;
+    padding-top: 20px;
   }
 
   .list {
