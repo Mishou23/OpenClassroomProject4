@@ -52,7 +52,7 @@
   display: flex;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   width: 100%;
   justify-content: center;
 }
@@ -118,7 +118,7 @@ input::placeholder {
 .intro .text {
   color: #353535;
   font-size: 18px;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 27px;
   text-align: center;
 }
@@ -154,7 +154,7 @@ input::placeholder {
 .filterTitle {
   font-size: 25px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
-  padding-top: 70px;
+  padding-top: 48px;
 
 }
 
@@ -280,7 +280,7 @@ input::placeholder {
 
 .food {
   position: relative;
-  padding-bottom: 18px;
+  padding-bottom: 25px;
   z-index: 1;
 }
 
@@ -342,14 +342,14 @@ input::placeholder {
   z-index: 1;
   top: 16px;
   border-radius: 3px;
-  right: 20px;
+  right: 15px;
 
 }
 
 .newFood p {
   color: #008766;
   font-size: 18px;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
 .subtitle {
@@ -384,7 +384,7 @@ input::placeholder {
 }
 
 .list {
-  padding-bottom: 15px;
+  padding-bottom: 12px;
   font-size: 16px;
   padding-right: 10px;
 }
@@ -461,9 +461,16 @@ input::placeholder {
     padding: 12px;
     font-size: 16px;
   }
+  .introBtn button {
+    margin-bottom: 30px;
+    padding: 17px 19px;
+  }
 
   /* ----------------------------------------------------------CARTES RESTO-------------------------------------------------------------------- */
   .restoCards {
+    padding-bottom: 15px;
+  }
+  .restaurant h2 {
     padding-bottom: 15px;
   }
   .food img {
@@ -569,7 +576,7 @@ input::placeholder {
     font-size: 18px;
     padding-top: 18px;
     padding-left: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
 
   .intro span {
@@ -578,7 +585,7 @@ input::placeholder {
 
   .intro button {
     padding: 17px 19px;
-    margin-bottom: 43px;
+    margin-bottom: 30px;
   }
 
   .filterTitle {
@@ -612,7 +619,7 @@ input::placeholder {
   }
 
   .btn span {
-    font-size: 15px;
+    font-size: 16px;
     padding-right: 38px;
     padding-left: 17px;
   }
@@ -635,6 +642,10 @@ input::placeholder {
     font-weight: 500;
   }
 
+  .restoCards {
+    padding-top: 30px;
+  }
+
   .restaurant h2 {
     font-size: 23px;
     padding-bottom: 5px;
@@ -648,6 +659,7 @@ input::placeholder {
   .newFood {
     right: 58px;
     top: 35px;
+    padding: 6px 12px;
   }
 
   .allMyFoods {
@@ -678,12 +690,13 @@ input::placeholder {
   }
 
 
-  .title {
-    font-size: 16px;
+  .card-content .title {
+    font-size: 15px;
   }
 
   .subtitle {
-    font-size: 17px;
+    font-size: 18px;
+    padding-bottom: 15px;
   }
 
   .heartIcon {
@@ -691,7 +704,7 @@ input::placeholder {
   }
 
   .newFood p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .iconLists {

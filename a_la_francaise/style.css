@@ -37,7 +37,7 @@
 
 /* ------------------------------------------------------HEADER----------------------------------------------------------- */
 .menuTitle {
-  background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   height: 275px;
   width: 100%;
   display: flex;
@@ -109,8 +109,8 @@
   padding-top: 42px;
   padding-left: 14px;
   margin-top: -2px;
-  padding-bottom: 12px;
-  font-size: 16px;
+  padding-bottom: 5px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -124,15 +124,16 @@
   position: relative;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   background-color: #FFFFFF;
-  padding: 16px;
+  padding: 12px 15px;
   border-radius: 20px;
   margin: 7px 13px;
   opacity: 0;
 }
 .foodPrice h3{
-  font-size: 18px;
-  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
- }
+ font-size: 20px;
+ text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
 .foodPrice.first {
   animation: fade-in-scroll ease-in 2s forwards;
 }
@@ -177,7 +178,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding-top: 3px;
+  padding-top: 5px;
   width: 100%;
   transition: 0.1s ease-out;
 }
@@ -187,7 +188,7 @@
 }
 
 .price p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .price span {
@@ -217,7 +218,7 @@
 }
 
 .check span {
-  padding: 27px 10px;
+  padding: 26px 10px;
   border-radius: 100px;
   display: inline-block;
   display: flex;
@@ -259,7 +260,7 @@
 .container {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 33px;
   padding-bottom: 40px;
   margin-bottom: -57px;
 }
@@ -307,7 +308,7 @@
 }
 
 .list {
-  padding-bottom: 15px;
+  padding-bottom: 12px;
   font-size: 16px;
   padding-right: 10px;
 }
@@ -378,34 +379,16 @@
     font-size: 35px;
   }
 
-  .firstMenu {
-    font-size: 20px;
-  }
-
-
   .price {
     display: flex;
     justify-content: space-between;
-    padding-top: 5px;
     width: 100%;
     flex-wrap: nowrap;
 
   }
 
-  .check span {
-    padding: 33px 10px;
-  }
-
   .foodTitle {
     font-size: 18px;
-  }
-
-  .price p {
-    font-size: 19px;
-  }
-
-  .foodPrice {
-    padding: 20px 30px;
   }
 
   .menuCard {
@@ -519,33 +502,16 @@
     font-size: 35px;
   }
 
-  .firstMenu {
-    font-size: 20px;
-  }
-
   .price {
     display: flex;
     justify-content: space-between;
-    padding-top: 5px;
     width: 100%;
     flex-wrap: nowrap;
 
   }
 
-  .check span {
-    padding: 33px 10px;
-  }
-
   .foodTitle {
     font-size: 18px;
-  }
-
-  .price p {
-    font-size: 18px;
-  }
-
-  .foodPrice {
-    padding: 20px 30px;
   }
 
   .menuCard {
