@@ -469,6 +469,7 @@ input::placeholder {
   /* ----------------------------------------------------------CARTES RESTO-------------------------------------------------------------------- */
   .restoCards {
     padding-bottom: 15px;
+    padding-top: 30px;
   }
   .restaurant h2 {
     padding-bottom: 15px;
