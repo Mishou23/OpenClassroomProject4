@@ -249,7 +249,7 @@ input::placeholder {
   width: 100%;
   background: #F6F6F6;
   padding-top: 54px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 
 }
 
@@ -463,7 +463,9 @@ input::placeholder {
   }
 
   /* ----------------------------------------------------------CARTES RESTO-------------------------------------------------------------------- */
-
+  .restoCards {
+    padding-bottom: 15px;
+  }
   .food img {
     height: 230px;
   }
