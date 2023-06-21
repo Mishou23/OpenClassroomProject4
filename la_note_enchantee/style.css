@@ -118,7 +118,7 @@
 .firstMenu p {
   border-bottom: 4px solid #99E2D0;
   width: 40px;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 
 .foodPrice {
@@ -307,7 +307,7 @@
 }
 
 .list {
-  padding-bottom: 12px;
+  padding-bottom: 10px;
   font-size: 16px;
 }
 
